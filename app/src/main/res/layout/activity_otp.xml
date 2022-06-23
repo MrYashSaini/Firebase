@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F0F0"
+    tools:context=".OtpActivity">
+
+    <EditText
+        android:id="@+id/ptOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/entryboxbg"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="OTP"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVerifyOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#877575"
+        android:text="Verify"
+        app:layout_constraintEnd_toEndOf="@+id/ptOtp"
+        app:layout_constraintStart_toStartOf="@+id/ptOtp"
+        app:layout_constraintTop_toBottomOf="@+id/ptOtp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

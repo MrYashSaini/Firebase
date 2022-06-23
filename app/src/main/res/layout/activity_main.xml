@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F0F0"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFirebaseDatabase"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="212dp"
+        android:text="Database"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFirebaseStorage"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="Storage"
+        app:layout_constraintEnd_toEndOf="@+id/btnFirebaseDatabase"
+        app:layout_constraintStart_toStartOf="@+id/btnFirebaseDatabase"
+        app:layout_constraintTop_toBottomOf="@+id/btnFirebaseDatabase" />
+
+    <Button
+        android:id="@+id/btnFirebaseStore"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="Store"
+        app:layout_constraintEnd_toEndOf="@+id/btnFirebaseStorage"
+        app:layout_constraintStart_toStartOf="@+id/btnFirebaseStorage"
+        app:layout_constraintTop_toBottomOf="@+id/btnFirebaseStorage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
